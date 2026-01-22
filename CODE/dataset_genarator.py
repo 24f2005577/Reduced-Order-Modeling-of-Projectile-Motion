@@ -12,5 +12,5 @@ def generator(n):
         j=[u,angle,t]
         Y.append(y)
         X.append(j)
-    ar=np.array(l)
-    return (ar)
+    ar=np.array(X)
+    return (ar,Y)
