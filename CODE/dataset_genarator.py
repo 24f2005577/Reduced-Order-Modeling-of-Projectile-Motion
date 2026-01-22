@@ -3,7 +3,7 @@ import math as mt
 def generator(n):
     X=[]
     Y=[]
-    for _ in range(1000000):
+    for _ in range(n):
         u=np.random.uniform(20.0,50.0)
         angle=np.random.uniform(0.262,1.31)
         t_f=(2*u*mt.sin(angle))/9.8
