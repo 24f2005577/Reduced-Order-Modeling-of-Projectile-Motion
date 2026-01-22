@@ -6,10 +6,10 @@ def generator(n):
     for _ in range(1000000):
         u=np.random.uniform(20.0,50.0)
         angle=np.random.uniform(0.262,1.31)
-        t_f=(2*u*mt.sin(an))/9.8
+        t_f=(2*u*mt.sin(angle))/9.8
         t=np.random.uniform(0,t_f)
         y=u*t*mt.sin(angle)-(0.5*9.8*t^2)
-        j=[u,an,t]
+        j=[u,angle,t]
         Y.append(y)
         X.append(j)
     ar=np.array(l)
